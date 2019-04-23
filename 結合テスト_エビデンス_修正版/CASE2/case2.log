@@ -1,0 +1,115 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-04-23 22:41:29.747  INFO 28776 --- [  restartedMain] j.g.s.ScheduleManagementApplication      : Starting ScheduleManagementApplication on NEC-PC with PID 28776 (C:\Users\NEC\git\ScheduleManagement\ScheduleManagement\target\classes started by NEC in C:\Users\NEC\git\ScheduleManagement\ScheduleManagement)
+2019-04-23 22:41:29.767 DEBUG 28776 --- [  restartedMain] j.g.s.ScheduleManagementApplication      : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-04-23 22:41:29.767  INFO 28776 --- [  restartedMain] j.g.s.ScheduleManagementApplication      : No active profile set, falling back to default profiles: default
+2019-04-23 22:41:29.837  INFO 28776 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 22:41:29.837  INFO 28776 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 22:41:31.603  INFO 28776 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-23 22:41:31.632  INFO 28776 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-23 22:41:31.632  INFO 28776 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-04-23 22:41:31.641  INFO 28776 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\NEC\Downloads\pleiades-4.7.3-java-win-64bit-jre_20180411\pleiades\java\8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/NEC/Downloads/pleiades-4.7.3-java-win-64bit-jre_20180411/pleiades/eclipse/jre/bin/../jre/bin/server;C:/Users/NEC/Downloads/pleiades-4.7.3-java-win-64bit-jre_20180411/pleiades/eclipse/jre/bin/../jre/bin;C:/Users/NEC/Downloads/pleiades-4.7.3-java-win-64bit-jre_20180411/pleiades/eclipse/jre/bin/../jre/lib/amd64;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\NEC\SmartVision;C:\Program Files\Common Files\NEC\SmartVision;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\NEC\Downloads\pleiades-4.7.3-java-win-64bit-jre_20180411\pleiades\eclipse;;.]
+2019-04-23 22:41:31.769  INFO 28776 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-23 22:41:31.769  INFO 28776 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1931 ms
+2019-04-23 22:41:32.140  INFO 28776 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 22:41:32.440  INFO 28776 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-04-23 22:41:32.512  INFO 28776 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-23 22:41:32.516  INFO 28776 --- [  restartedMain] j.g.s.ScheduleManagementApplication      : Started ScheduleManagementApplication in 3.798 seconds (JVM running for 4.77)
+2019-04-23 22:41:46.578  INFO 28776 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 22:41:46.578  INFO 28776 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-23 22:41:46.587  INFO 28776 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-04-23 22:43:49.840  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : getEventUrl start
+2019-04-23 22:43:49.847  INFO 28776 --- [nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-04-23 22:43:49.862  INFO 28776 --- [nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-04-23 22:43:49.869 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [xQuThudiXb], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.885  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : eventData end: 0
+2019-04-23 22:43:49.894  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : create start
+2019-04-23 22:43:49.897 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.Integer], SQL type unknown
+2019-04-23 22:43:49.897 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [ÉTÉìÉvÉãÉCÉxÉìÉgÇQ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.897 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 3, parameter value [], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.897 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 4, parameter value [xQuThudiXb], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.898  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : create end: 1
+2019-04-23 22:43:49.898  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : eventDateCount start
+2019-04-23 22:43:49.898 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.Integer], SQL type unknown
+2019-04-23 22:43:49.898 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.900  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : eventDateCount end: 1
+2019-04-23 22:43:49.900  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : eventDateCount start
+2019-04-23 22:43:49.900 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.Integer], SQL type unknown
+2019-04-23 22:43:49.900 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:43:49.900  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : eventDateCount end: 1
+2019-04-23 22:43:49.900 TRACE 28776 --- [nio-8080-exec-7] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.Integer], SQL type unknown
+2019-04-23 22:43:49.901  INFO 28776 --- [nio-8080-exec-7] j.g.s.service.EventRegistServiceImpl     : create data: {EVENT_ID=406, EVENT_NAME=ÉTÉìÉvÉãÉCÉxÉìÉgÇQ, EVENT_MEMO=, EVENT_URL=xQuThudiXb}
+2019-04-23 22:44:58.051 TRACE 28776 --- [nio-8080-exec-2] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [xQuThudiXb], value class [java.lang.String], SQL type unknown
+2019-04-23 22:44:58.052  INFO 28776 --- [nio-8080-exec-2] j.g.s.service.EventRegistServiceImpl     : event data: {EVENT_ID=406, EVENT_NAME=ÉTÉìÉvÉãÉCÉxÉìÉgÇQ, EVENT_MEMO=, EVENT_URL=xQuThudiXb}
+2019-04-23 22:44:58.052  INFO 28776 --- [nio-8080-exec-2] j.g.s.service.EventRegistServiceImpl     : eventDateList start
+2019-04-23 22:44:58.052 TRACE 28776 --- [nio-8080-exec-2] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:44:58.052  INFO 28776 --- [nio-8080-exec-2] j.g.s.service.EventRegistServiceImpl     : eventDateList end: [{EVENT_ID=406, EVENT_DATE_NO=39262, EVENT_DATE=2019/11/11 11:11}, {EVENT_ID=406, EVENT_DATE_NO=39263, EVENT_DATE=2019/12/12 12:12}]
+2019-04-23 22:45:53.516 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.516  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : userAnswerCount start
+2019-04-23 22:45:53.517 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.517 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.517 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 3, parameter value [12/12ÇÕî˜ñ≠], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.519  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : userAnswerCount end: 1
+2019-04-23 22:45:53.519  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : AnswerAttendCount start
+2019-04-23 22:45:53.519 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.519 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.519 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 3, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.519 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 4, parameter value [1], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.522  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : AnswerAttendCount end: 1
+2019-04-23 22:45:53.522  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : AnswerAttendCount start
+2019-04-23 22:45:53.522 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.522 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.522 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 3, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.522 TRACE 28776 --- [nio-8080-exec-3] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 4, parameter value [2], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.523  INFO 28776 --- [nio-8080-exec-3] j.g.s.service.EventRegistServiceImpl     : AnswerAttendCount end: 1
+2019-04-23 22:45:53.543  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : eventData start
+2019-04-23 22:45:53.543 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [xQuThudiXb], value class [java.lang.String], SQL type unknown
+{EVENT_ID=406, EVENT_NAME=ÉTÉìÉvÉãÉCÉxÉìÉgÇQ, EVENT_MEMO=, EVENT_URL=xQuThudiXb}
+2019-04-23 22:45:53.544  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : eventData end: {EVENT_ID=406, EVENT_NAME=ÉTÉìÉvÉãÉCÉxÉìÉgÇQ, EVENT_MEMO=, EVENT_URL=xQuThudiXb}
+2019-04-23 22:45:53.544  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttendList start
+2019-04-23 22:45:53.544 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.545  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttendList end: [{EVENT_DATE=2019/11/11 11:11}, {EVENT_DATE=2019/12/12 12:12}]
+2019-04-23 22:45:53.545  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceMaru start
+2019-04-23 22:45:53.545 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.545 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.546  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceMaru end: {ANSWER_COUNT=1}
+2019-04-23 22:45:53.546  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceSankaku start
+2019-04-23 22:45:53.546 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.546 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.546  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceSankaku end: {ANSWER_COUNT=0}
+2019-04-23 22:45:53.580  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceBatu start
+2019-04-23 22:45:53.580 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.580 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.581  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceBatu end: {ANSWER_COUNT=0}
+2019-04-23 22:45:53.581  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceMaru start
+2019-04-23 22:45:53.581 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.581 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.581  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceMaru end: {ANSWER_COUNT=0}
+2019-04-23 22:45:53.582  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceSankaku start
+2019-04-23 22:45:53.582 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.582 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.582  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceSankaku end: {ANSWER_COUNT=1}
+2019-04-23 22:45:53.582  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceBatu start
+2019-04-23 22:45:53.582 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.582 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.582  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : answerAttenDanceBatu end: {ANSWER_COUNT=0}
+2019-04-23 22:45:53.583 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.583  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getAnswerAttendance start
+2019-04-23 22:45:53.584 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/11/11 11:11], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.584 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.584  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getAnswerAttendance end: {ANSWER_ATTENDANCE=1}
+2019-04-23 22:45:53.587  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getAnswerAttendance start
+2019-04-23 22:45:53.588 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [2019/12/12 12:12], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.588 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.589  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getAnswerAttendance end: {ANSWER_ATTENDANCE=2}
+2019-04-23 22:45:53.589  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getComment start
+2019-04-23 22:45:53.589 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 1, parameter value [406], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.589 TRACE 28776 --- [nio-8080-exec-1] o.s.jdbc.core.StatementCreatorUtils      : Setting SQL statement parameter value: column index 2, parameter value [â‰ìﬂîeÇQçÜ], value class [java.lang.String], SQL type unknown
+2019-04-23 22:45:53.590  INFO 28776 --- [nio-8080-exec-1] j.g.s.service.AnswerAttendServiceImpl    : getComment end: {ANSWER_USER_COMMENT=12/12ÇÕî˜ñ≠}
